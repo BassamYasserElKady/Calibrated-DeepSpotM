@@ -35,6 +35,15 @@ These are pooled all-gene results. Gene-specific performance varies: EGFR did
 not generalize as well on the final test set, so the adapter should not be
 interpreted as uniformly improving every gene.
 
+## Scope and expansion
+
+In this evaluation, the calibration adapter improved the reported DeepSpot-M
+metrics on a matched human breast-cancer Xenium cohort. The adapter is therefore
+breast-cancer-focused rather than a cancer-agnostic replacement for DeepSpot-M.
+Adding other cancer types will require additional matched H&E/spatial-expression
+training samples, cancer-type-aware grouped validation, and independent external
+testing before claiming cross-cancer generalization.
+
 ## Setup
 
 ```bash
