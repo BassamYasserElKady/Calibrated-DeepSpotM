@@ -19,6 +19,22 @@ spatial-expression predictions against Xenium measurements.
 - The first trainable model is DeepSpot-M tile predictions → calibration adapter.
 - The legacy notebook is not part of this repository and should remain read-only.
 
+## Observed results
+
+On the pooled final-test samples, the calibration adapter improved overall
+agreement with Xenium across the shared genes:
+
+| Metric | Raw DeepSpot-M | Calibrated DeepSpot-M |
+|---|---:|---:|
+| Spatial Pearson | 0.142 | 0.414 |
+| Per-tile gene-rank Spearman | 0.395 | 0.654 |
+| Aggregate abundance Pearson | 0.689 | 0.965 |
+| Aggregate abundance Spearman | 0.673 | 0.950 |
+
+These are pooled all-gene results. Gene-specific performance varies: EGFR did
+not generalize as well on the final test set, so the adapter should not be
+interpreted as uniformly improving every gene.
+
 ## Setup
 
 ```bash
