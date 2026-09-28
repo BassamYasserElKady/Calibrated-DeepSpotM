@@ -1,5 +1,11 @@
 # Calibrated-DeepSpotM
 
+[![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![Status](https://img.shields.io/badge/status-research%20code-orange)](#) [![Data](https://img.shields.io/badge/raw%20data-not%20included-lightgrey)](#repository-boundaries)
+
+[![PyTorch](https://img.shields.io/badge/PyTorch-CUDA%20when%20available-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/) [![NumPy](https://img.shields.io/badge/NumPy-required-013243?logo=numpy&logoColor=white)](https://numpy.org/) [![SciPy](https://img.shields.io/badge/SciPy-required-8CAAE6)](https://scipy.org/) [![pandas](https://img.shields.io/badge/pandas-required-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+
+[![matplotlib](https://img.shields.io/badge/matplotlib-required-11557C?logo=matplotlib&logoColor=white)](https://matplotlib.org/) [![PyYAML](https://img.shields.io/badge/PyYAML-required-CC0000)](https://pyyaml.org/) [![pytest](https://img.shields.io/badge/pytest-required-0A9EDC?logo=pytest&logoColor=white)](https://pytest.org/) [![DeepSpot-M](https://img.shields.io/badge/model-DeepSpot--M-6f42c1)](#scientific-design)
+
 A reproducible multi-sample pipeline for calibrating DeepSpot-M histology-based
 spatial-expression predictions against Xenium measurements.
 
