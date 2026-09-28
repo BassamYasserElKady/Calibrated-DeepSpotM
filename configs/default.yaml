@@ -1,0 +1,23 @@
+project_root: .
+manifest: data/sample_manifest.csv
+processed_dir: data/processed
+results_dir: results
+
+split:
+  development_label: development
+  final_test_label: final_test
+
+preprocessing:
+  target_normalization: log1p_cp10k
+  tile_size: 224
+  require_complete_tiles: true
+
+model:
+  hidden_width: 128
+  latent_width: 96
+  dropout: 0.20
+
+evaluation:
+  grouped_validation: leave_one_sample_out
+  final_test: pooled_and_per_sample
+  random_seed: 20260928

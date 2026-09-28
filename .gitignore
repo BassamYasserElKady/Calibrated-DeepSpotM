@@ -1,0 +1,34 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+*.py[cod]
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Raw and downloaded data: never commit these
+data/raw/
+data/external/
+data/sample_manifest.csv
+models/
+
+# Large or reproducible generated outputs
+results/
+*.h5ad
+*.h5
+*.zarr/
+*.zip
+*.parquet
+*.ome.tif
+*.tif
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/

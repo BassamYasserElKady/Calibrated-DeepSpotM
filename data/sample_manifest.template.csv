@@ -1,0 +1,2 @@
+sample_id,patient_id,section,position,split,he_image_path,xenium_archive_path,cell_group_csv_path,alignment_csv_path,deepspot_tiles_path,transform_json_path,geometry_path,xenium_scale,tile_size
+S1_Top,P001,section_1,top,development,data/raw/10x/section_1_top/he.ome.tif,data/raw/10x/section_1_top/xenium_outs.zip,data/raw/10x/section_1_top/cell_groups.csv,data/raw/10x/section_1_top/alignment.csv,data/processed/S1_Top/deepspot_tiles.parquet,data/processed/S1_Top/transform.json,data/processed/S1_Top/geometry.json,1.0,224
