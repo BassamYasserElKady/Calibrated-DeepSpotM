@@ -46,3 +46,10 @@ pytest -q
 
 See [docs/multisample_design.md](docs/multisample_design.md) for alignment,
 normalization, split, evaluation, and leakage-control details.
+
+## Example visualization
+
+The following S4-Mid visualization compares PGR and ERBB2 spatial patterns on a
+large H&E cookie-shaped region:
+
+![S4-Mid PGR and ERBB2 spatial comparison](figures/s4_mid_pgr_erbb2_six_panel_large_cookie_he_viridis_dotsize095_no_title.png)
